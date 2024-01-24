@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Tiny Habits",
+      "price": "1.99",
+      "detail": "The Small Changes That Change Everything by BJ Fogg",
+      "image": "./one.jpg"
+    },
+    {
+      "name": "The Power of Habit",
+      "price": "2.99",
+      "detail": "Why We Do What We Do in Life and Business by Charles Duhigg",
+      "image": "./two.jpg"
+    },
+    {
+      "name": "Better Than Before",
+      "price": "0.99",
+      "detail": "What I Learned About Making and Breaking Habits by Gretchen Rubin",
+      "image": "./three.jpg"
+    },
+    {
+      "name": "Mindset",
+      "price": "1.00",
+      "detail": "The New Psychology of Success by Carol S. Dweck",
+      "image": "./four.jpg"
+    },
+    {
+      "name": "The Miracle Morning",
+      "price": "2.00",
+      "detail": "The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8 AM) by Hal Elrod",
+      "image": "./five.jpg"
+    },
+    {
+      "name": "The One Thing",
+      "price": "1.50",
+      "detail": "The Surprisingly Simple Truth Behind Extraordinary Results by Gary Keller and Jay Papasan",
+      "image": "./six.jpg"
+    }
+  ]

@@ -1,0 +1,47 @@
+.review-conatiner{
+    position: relative;
+    padding: 3rem;
+}
+.review.map{
+    border: 1px solid grey;
+    padding: 0 50px;
+}
+.review-item{
+    display: flex;
+    flex-direction: row;
+}
+.text-container{
+    flex: 1;
+    border-bottom: 1px solid grey;
+    flex-wrap: wrap;
+    padding: 20px 40px 20px 0px;
+}
+.author{
+    text-align: left;
+    padding: 20px 0;
+}
+.title{
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(145, 126, 228);
+}
+.role{
+    font-style: italic;
+}
+.image-wrapper {
+    width: 100px; /* Adjust the size of the circle as needed */
+    height: 100px; /* Adjust the size of the circle as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Add spacing between the image and text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

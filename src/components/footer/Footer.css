@@ -1,0 +1,40 @@
+.f-wrappe{
+    justify-content: center;
+}
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.f-menu{
+    gap: 1rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+.last-footer{
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
+    color: rgb(145, 126, 228);
+}
+@media screen {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+}
+@media (min-width:1200px){
+    .f-left{
+        flex: 1;
+        padding-right: 2rem;
+        /* gap: 2rem; */
+    }
+    .f-right{
+        flex: 1;
+    }
+}

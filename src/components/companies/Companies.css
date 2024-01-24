@@ -1,0 +1,11 @@
+.c-wrapper{
+    padding-top: 2rem;
+}
+.c-container{
+    justify-content: space-between;
+    
+    gap: 1rem;
+}
+.c-container>img{
+    width: 9rem;
+}

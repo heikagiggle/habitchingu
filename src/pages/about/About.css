@@ -1,0 +1,21 @@
+.about-wrapper{
+   position: relative;
+ 
+}
+
+.about-image{
+    background-image: url('/second.jpg'); /* Replace 'your-image-filename.jpg' with your actual image filename */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Set text color as needed */
+    padding-top: 225px; /* Adjust padding as needed */
+    padding-bottom: 254px; /* Adjust padding as needed */
+    height: 650px; /* Set the desired height */
+    margin-bottom: 12px; /* Adjust margin as needed */
+}
+.img{
+    width: 450px;
+    height: 300px;
+    background-position: center;
+}
