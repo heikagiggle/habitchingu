@@ -31,7 +31,7 @@ function Big() {
       <div>
         <h1 className="lg:text-[30px] text-center items-center m-9 primaryText">Record your habits daily</h1>
         <p className="lg:text-center text-left font-bold px-4 pb-4">Get rid of your bad habits today and embrace new ones for healthy living</p>
-        <p className="lg:text-center text-left font-bold px-4">Examples of bad habits include bad slurs, cursings, fights, bulimic eating etc</p>
+        <p className="lg:text-center text-left font-bold px-4 pb-3">Examples of bad habits include bad slurs, cursings, fights, bulimic eating etc</p>
         <p className="lg:text-center text-left font-bold px-4">Follow the 3 steps to use tracker, it is nice and easy</p>
       </div>
 
