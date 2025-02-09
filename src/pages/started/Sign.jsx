@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Sign.css';
 import user from '/person.png';
 import email from '/email.png';

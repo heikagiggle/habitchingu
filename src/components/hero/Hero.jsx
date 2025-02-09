@@ -1,9 +1,9 @@
-/* eslint-disable no-unused-vars */
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -61,7 +61,7 @@ const Hero = () => {
             </span>
           </div>
 
-          <div className="flexCenter search-bar">
+          {/* <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
             <input
               type="email"
@@ -72,6 +72,16 @@ const Hero = () => {
             <button className="button" onClick={handleButtonClick}>
               Subscribe
             </button>
+          </div> */}
+
+          <div>
+            <Link to="/habit">
+              {" "}
+              <button className="button" onClick={handleButtonClick}>
+                Track Habits ➣
+              </button>
+            </Link>
+            
           </div>
 
           <div className="flexCenter stats">

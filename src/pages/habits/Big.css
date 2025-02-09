@@ -1,26 +1,32 @@
-.app{
-    display: grid;
-    grid-template-rows: 150px auto;
-    
-    padding: 2% 5%;
-}
-.app_main{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 8%;
-}
-.task_column{
-    width: 33.33% ;
-    margin: 20px;
+div {
+  margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    
-    .app {
-      padding: 3% 10%; 
-      max-width: 550px;
-    }
-    .app_main{
-        flex-direction: column;
-    }
+.app {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 5%;
+  gap: 20px;
+}
+
+.app_main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.task_column {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .app_main {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .task_column {
+    width: 33.33%;
+  }
 }
